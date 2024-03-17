@@ -35,5 +35,6 @@ public class Directory extends Entry {
 
     public void add(Entry entry) {
         directory.add(entry);
+        entry.setParent(this);
     }
 }

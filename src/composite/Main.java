@@ -29,7 +29,12 @@ public class Main {
         kim.add(new File("Composite.java", 200));
         lee.add(new File("memo.tex", 300));
         choi.add(new File("game.doc", 400));
-        choi.add(new File("junk.mail", 500));
+        File file = new File("junk.mail", 500);
+        choi.add(file);
         rootdir.printList();
+
+        System.out.println();
+        System.out.println("file = " + file.getFullName());
+        System.out.println("choi = " + choi.getFullName());
     }
 }

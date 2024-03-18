@@ -1,5 +1,11 @@
 package visitor;
 
+import java.io.IOException;
+import java.nio.file.FileVisitResult;
+import java.nio.file.Path;
+import java.nio.file.SimpleFileVisitor;
+import java.nio.file.attribute.BasicFileAttributes;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Making root entries...");
@@ -34,5 +40,28 @@ public class Main {
         park.add(new File("junk.mail", 100));
 
         rootdir.accept(new ListVisitor());
+        System.out.println();
+
+        FileFindVisitor ffv = new FileFindVisitor(".html");
+        rootdir.accept(ffv);
+
+        System.out.println("HTML files are:");
+        for (File file : ffv.getFoundFiles()) {
+            System.out.println(file);
+        }
+    }
+}
+
+class MyFileVisitor extends SimpleFileVisitor<Path> {
+    @Override
+    public FileVisitResult preVisitDirectory(Path dir, BasicFileAttributes attrs) throws IOException {
+        System.out.println("dir : " + dir);
+        return FileVisitResult.CONTINUE;
+    }
+
+    @Override
+    public FileVisitResult visitFile(Path dir, BasicFileAttributes attrs) throws IOException {
+        System.out.println("dir : " + dir);
+        return FileVisitResult.CONTINUE;
     }
 }

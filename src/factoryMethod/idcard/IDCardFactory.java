@@ -1,7 +1,7 @@
-package factorymethod.idcard;
+package factoryMethod.idcard;
 
-import factorymethod.framework.Factory;
-import factorymethod.framework.Product;
+import factoryMethod.framework.Factory;
+import factoryMethod.framework.Product;
 
 public class IDCardFactory extends Factory {
     private int serial = 100;

@@ -5,3 +5,5 @@
 ### [Adapter](src/adapter/adapter.md)
 
 ### [Template Method](src/templateMethod/templateMethod.md)
+
+### [Factory Method](src/factoryMethod/factoryMethod.md)

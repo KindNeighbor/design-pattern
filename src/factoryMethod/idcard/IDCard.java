@@ -1,6 +1,6 @@
-package factorymethod.idcard;
+package factoryMethod.idcard;
 
-import factorymethod.framework.Product;
+import factoryMethod.framework.Product;
 
 public class IDCard extends Product {
     private String owner;

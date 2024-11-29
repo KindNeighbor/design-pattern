@@ -1,7 +1,7 @@
-package abstractfactory.listfactory;
+package abstractFactory.listfactory;
 
-import abstractfactory.factory.Item;
-import abstractfactory.factory.Page;
+import abstractFactory.factory.Item;
+import abstractFactory.factory.Page;
 
 public class ListPage extends Page {
 

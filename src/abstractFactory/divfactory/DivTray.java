@@ -1,7 +1,7 @@
-package abstractfactory.divfactory;
+package abstractFactory.divfactory;
 
-import abstractfactory.factory.Item;
-import abstractfactory.factory.Tray;
+import abstractFactory.factory.Item;
+import abstractFactory.factory.Tray;
 
 public class DivTray extends Tray {
 

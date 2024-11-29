@@ -9,3 +9,7 @@
 ### [Factory Method](src/factoryMethod/factoryMethod.md)
 
 ### [Prototype](src/prototype/prototype.md)
+
+### [Builder](src/builder/builder.md)
+
+### [Abstract Factory](src/abstractFactory/abstractFactory.md)

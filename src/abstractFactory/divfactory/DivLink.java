@@ -1,6 +1,6 @@
-package abstractfactory.divfactory;
+package abstractFactory.divfactory;
 
-import abstractfactory.factory.Link;
+import abstractFactory.factory.Link;
 
 public class DivLink extends Link {
 

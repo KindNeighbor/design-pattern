@@ -1,9 +1,9 @@
-package abstractfactory.divfactory;
+package abstractFactory.divfactory;
 
-import abstractfactory.factory.Factory;
-import abstractfactory.factory.Link;
-import abstractfactory.factory.Page;
-import abstractfactory.factory.Tray;
+import abstractFactory.factory.Factory;
+import abstractFactory.factory.Link;
+import abstractFactory.factory.Page;
+import abstractFactory.factory.Tray;
 
 public class DivFactory extends Factory {
 

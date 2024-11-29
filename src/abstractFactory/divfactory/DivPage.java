@@ -1,7 +1,7 @@
-package abstractfactory.divfactory;
+package abstractFactory.divfactory;
 
-import abstractfactory.factory.Item;
-import abstractfactory.factory.Page;
+import abstractFactory.factory.Item;
+import abstractFactory.factory.Page;
 
 public class DivPage extends Page {
 

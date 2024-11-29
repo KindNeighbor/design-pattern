@@ -1,4 +1,4 @@
-package abstractfactory.factory;
+package abstractFactory.factory;
 
 import java.io.IOException;
 import java.nio.file.Files;

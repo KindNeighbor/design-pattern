@@ -13,3 +13,7 @@
 ### [Builder](src/builder/builder.md)
 
 ### [Abstract Factory](src/abstractFactory/abstractFactory.md)
+
+### [Bridge](src/bridge/bridge.md)
+
+### [Strategy](src/strategy/strategy.md)

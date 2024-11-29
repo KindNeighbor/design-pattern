@@ -2,7 +2,13 @@
 
 - iterator 라는 말 그대로 반복해서 전체를 검색한 후 출력하는 데 사용되는 패턴이다. 반복문 중 for문을 보면 i 값에 따라서 다음으로 진행하는데, 이 i 를 추상화 해서 일반화 시킨 패턴이라고 보면 된다.
 
-![Iterator pattern.png](../images/Iterator%20pattern.png)
+</br>
+
+<div align="center">
+  <img src="../images/Iterator%20pattern.png" alt="Iterator pattern">
+</div>
+
+</br>
 
 우선 위와 같은 구조로 Iterator 패턴을 구현한다. Itrable<T> 와 Itrator<E> 는 java.lang 패키지에 이미 선언되어 있으므로, 직접 구현할 필요없이 가져다가 쓰면 된다.
 
@@ -120,7 +126,13 @@ public class Main {
 
 그럼에도 불구하고 Iterator 패턴을 구현해서 사용하는 이유는, bookShelf 구현에 의존하지 않는다. 아래의 향상된 for문을 보면, bookShelf 에서 book 을 뽑아서 사용하는데, 만약 bookShelf 가 바뀌면 for문 내부도 바꾸어야 하는 상황이 생길 수 있다. 하지만 Iterator 패턴을 사용한 부분을 보면 반복문 내부에서 bookShelf 가 등장하지 않는다.
 
-![iterator.png](../images/iterator.png)
+</br>
+
+<div align="center">
+  <img src="../images/iterator.png" alt="Iterator">
+</div>
+
+</br>
 
 앞서 Book, BookShelf, BookShelfIterator 로 만들어본 Iterator 패턴을 일반화 한 UML 은 다음과 같다. ConcreateAggregate 가 구체적인 집합체이고, ConcreteIterator 가 그 집합체를 반복 탐색하는 부분이다.
 

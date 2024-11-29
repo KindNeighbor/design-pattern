@@ -7,3 +7,5 @@
 ### [Template Method](src/templateMethod/templateMethod.md)
 
 ### [Factory Method](src/factoryMethod/factoryMethod.md)
+
+### [Prototype](src/prototype/prototype.md)

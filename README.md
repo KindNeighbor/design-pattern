@@ -17,3 +17,9 @@
 ### [Bridge](src/bridge/bridge.md)
 
 ### [Strategy](src/strategy/strategy.md)
+
+### [Composite](src/composite/composite.md)
+
+### [Decorator](src/decorator/decorator.md)
+
+### [Visitor](src/visitor/visitor.md)

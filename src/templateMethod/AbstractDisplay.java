@@ -1,4 +1,4 @@
-package templatemethod;
+package templateMethod;
 
 public abstract class AbstractDisplay {
     // open, print, close 는 하위 클래스에 구현을 맡기는 추상 메소드

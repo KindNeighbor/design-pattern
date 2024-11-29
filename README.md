@@ -3,3 +3,5 @@
 ### [Iterator](src/iterator/iterator.md)
 
 ### [Adapter](src/adapter/adapter.md)
+
+### [Template Method](src/templateMethod/templateMethod.md)

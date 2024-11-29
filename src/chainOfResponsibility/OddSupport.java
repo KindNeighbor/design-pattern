@@ -1,4 +1,4 @@
-package chainofresponsibility;
+package chainOfResponsibility;
 
 public class OddSupport extends Support {
 

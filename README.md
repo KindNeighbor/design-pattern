@@ -23,3 +23,21 @@
 ### [Decorator](src/decorator/decorator.md)
 
 ### [Visitor](src/visitor/visitor.md)
+
+### [Chain Of Responsibility](src/chainOfResponsibility/chainOfResponsibility.md)
+
+### [Facade](src/facade/facade.md)
+
+### [Mediator](src/mediator/mediator.md)
+
+### [Observer](src/observer/observer.md)
+
+### [Memento](src/memento/memento.md)
+
+### [State](src/state/state.md)
+
+### [Flyweight](src/flyweight/flyweight.md)
+
+### [Proxy](src/proxy/proxy.md)
+
+### [Command](src/command/command.md)

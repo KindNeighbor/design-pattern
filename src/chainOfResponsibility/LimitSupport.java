@@ -1,4 +1,4 @@
-package chainofresponsibility;
+package chainOfResponsibility;
 
 public class LimitSupport extends Support {
     private int limit;

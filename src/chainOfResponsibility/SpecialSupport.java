@@ -1,4 +1,4 @@
-package chainofresponsibility;
+package chainOfResponsibility;
 
 public class SpecialSupport extends Support {
     private int number;

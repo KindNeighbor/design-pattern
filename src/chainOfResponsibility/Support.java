@@ -1,4 +1,4 @@
-package chainofresponsibility;
+package chainOfResponsibility;
 
 public abstract class Support {
     private String name;
